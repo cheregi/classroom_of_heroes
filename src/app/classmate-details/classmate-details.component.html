@@ -1,0 +1,38 @@
+<p>
+  classmate-details works!
+</p>
+<p>
+  click on a name from the list above!
+</p>
+<!-- one way data binding -->
+<div *ngIf="currentClassmates">
+  <!--ngIf add or remove the content-->
+  <h2>{{currentClassmates.firstName}}, {{ currentClassmates.lastName | uppercase}}
+    Details</h2>
+  <div><span>intermediate: </span>{{currentClassmates.interMark}}</div>
+  <div><span>final: </span>{{currentClassmates.finalMark}}</div>
+  <!-- edition - two way dtaa bindig-->
+  <div>
+    <label for="">
+      First Name:
+      <!-- directive -> [(ngModel)], directive -> {{bestStudent.firstName}} directive -> {{currentClassmates.firstName}}  -->
+      <input [(ngModel)]="currentClassmates.firstName" placeholde="First Name">
+    </label>
+    <label for="">
+      Last Name:
+      <!-- directive -> [(ngModel)], directive -> {{bestStudent.lastName}} directive -> {{currentClassmates.lastName}}  -->
+      <input [(ngModel)]="currentClassmates.lastName" placeholder="Last Name">
+    </label>
+    <label for="">
+      Inter Mark:
+      <!-- directive -> [(ngModel)], directive -> {{bestStudent.interMark}} directive -> {{currentClassmates.interMark}}  -->
+      <input [(ngModel)]="currentClassmates.interMark" type="number" placeholder="Inter Mark">
+    </label>
+    <label for="">
+      Final Mark:
+      <!-- directive -> [(ngModel)], directive -> {{bestStudent.interMark}} directive -> {{currentClassmates.finalMark}}  -->
+      <input [(ngModel)]="currentClassmates.finalMark" type="number" placeholder="Final Mark">
+    </label>
+  </div>
+  <button (click)="addPoints()">Add Points</button>
+</div>

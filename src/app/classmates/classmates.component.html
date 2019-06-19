@@ -1,0 +1,13 @@
+<!-- LIST OF ALL COMPONENTS -->
+<h2> my classmates</h2>
+<ul>
+
+    <li *ngFor="let dude of allClassMates" id="pacman" (click)="selectStudent(dude)"
+        [class.selected]="dude===selectedStudent" [class.excellent]="mean(dude)>=18" [class.worst]="mean(dude)<=10"
+        class="card">
+        {{mean(dude)}},
+        <span id='secondColor'>{{dude.firstName}},</span>
+        {{dude.lastName|uppercase}}
+    </li>
+</ul>
+<app-classmate-details [currentClassmates]="selectedStudent"></app-classmate-details>

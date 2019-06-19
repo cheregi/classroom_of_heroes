@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rosybrown;
+    font-family: 'Source Code Pro', monospace;
+}
+h1 {
+    
+    color: darkblue;
+    font-family: 'Lobster Two', cursive;
+    
+}
+h2 {
+    color: brown;
+    font-family: 'Source Code Pro', monospace;
+
+}

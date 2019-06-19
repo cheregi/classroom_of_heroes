@@ -1,0 +1,54 @@
+/* #pacman{
+    width: 0px;
+    height: 0px;
+    border-right: 15px solid transparent;
+    border-top: 15px solid darkblue;
+    border-left: 15px solid darkblue;
+    border-bottom: 15px solid darkblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+   margin: auto;
+ 
+} */
+.excellent {
+    color: green;
+}
+.worst {
+    color: red;
+}
+.selected{
+    color:darkblue;
+}
+li{
+    /* color: darkblue; */
+    width: 20%;
+    margin: auto;
+   /* list-style: none; */
+   /* margin-top:5px; */
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   font-size: 20px;
+    
+}
+#secondColor{
+    color: antiquewhite;
+   
+}
+ul li {
+    
+    list-style-image: url("../../assets/trainer-512.png");
+}
+
+li:hover {
+    background-color: rgb(201, 116, 116);
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+   
+}
+
+    
+
