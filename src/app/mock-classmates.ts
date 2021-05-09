@@ -2,32 +2,32 @@ import { Student } from './student';
 export const CLASSMATES: Student[] = [
 
     {
-        firstName: "Marco",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 20,
         finalMark: 20
     },
     {
-        firstName: "Karlo",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 19,
         finalMark: 20
     },
     {
-        firstName: "Adolfo",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 20,
         finalMark: 18
     },
     {
-        firstName: "filip",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 10,
         finalMark: 16
     },
     {
-        firstName: "daniel",
-        lastName: "huebner",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 20,
         finalMark: 18
     },
@@ -38,68 +38,68 @@ export const CLASSMATES: Student[] = [
         finalMark: 20
     },
     {
-        firstName: "apolline",
-        lastName: "weirich",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 20,
         finalMark: 13
     },
     {
-        firstName: "mario",
-        lastName: "morettoni",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 9,
         finalMark: 12
     },
     {
-        firstName: "tae hee",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 17,
         finalMark: 17
     },
     {
-        firstName: "jerry",
-        lastName: "hoffmann",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 16,
         finalMark: 14
     },
     {
-        firstName: "alvaro",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 19,
         finalMark: 19
     },
     {
-        firstName: " marcio",
-        lastName: "oliveira",
+        firstName: " DIana",
+        lastName: "DIana",
         interMark: 20,
         finalMark: 20
     },
     {
-        firstName: "yuri",
-        lastName: "kostenko",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 7,
         finalMark: 8
     },
     {
-        firstName: "yann",
-        lastName: "hoffmann",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 15,
         finalMark: 9
     },
     {
-        firstName: "nishtman",
+        firstName: "DIana",
         lastName: "abc",
         interMark: 16,
         finalMark: 9
     },
     {
-        firstName: "giuseppe",
-        lastName: "impiccichi",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 20,
         finalMark: 6
     },
     {
-        firstName: "adrien",
-        lastName: "casoni",
+        firstName: "DIana",
+        lastName: "DIana",
         interMark: 9,
         finalMark: 11
     },

@@ -6,6 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Generated deployables command
+
+`npm install @angular-devkit/build-angular`
+
+`ng build --prod --baseHref="https://cheregi.github.io/classroom_of_heroes/"`
+
+![food for heroes](/src/assets/coh_screen.jpg)
+
+Checkout my [**demo**](https://cheregi.github.io/classroom_of_heroes/)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
