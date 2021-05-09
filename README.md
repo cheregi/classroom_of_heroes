@@ -12,7 +12,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 `ng build --prod --baseHref="https://cheregi.github.io/classroom_of_heroes/"`
 
-![food for heroes](/src/assets/coh_screen.jpg)
+![food for heroes](/src/assets/coh_screen.JPG)
 
 Checkout my [**demo**](https://cheregi.github.io/classroom_of_heroes/)
 
